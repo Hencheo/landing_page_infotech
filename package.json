@@ -1,0 +1,17 @@
+{
+  "name": "landing-page-informatica",
+  "version": "1.0.0",
+  "description": "Landing page para loja de informática",
+  "scripts": {
+    "build": "tailwindcss -i ./css/input.css -o ./css/output.css --minify",
+    "dev": "tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "keywords": ["landing-page", "tailwind", "informatica"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32"
+  }
+}
